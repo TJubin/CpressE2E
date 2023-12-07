@@ -1,0 +1,14 @@
+{
+    "loginp": {
+        "username": "test.qa1@dispostable.com",
+        "password":"test123"
+    },
+    "product":{
+        "productName":"MacBook"
+
+    },
+    "message":{
+        "successmsg":"Success: You have added"}
+
+
+}

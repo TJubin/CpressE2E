@@ -28,7 +28,7 @@ describe("custom Commands", function(){
 
     })
     it.only("login command", ()=>{
-        cy.visit("https://demo.nopcommerce.com/")
+        //cy.visit("https://demo.nopcommerce.com/")
         //can custom the test commands for the tests which is perofrmigng constantly, EG: Login
         cy.clickLink("Log in")
         cy.loginapp("testing@gmail.com", "test123")

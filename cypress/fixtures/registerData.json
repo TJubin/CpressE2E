@@ -1,7 +1,7 @@
 {
-    "FirstName":"test",
+    "FName":"test",
     "LastName":"QA",
-    "Email":"test.qa@dispostable.com",
+    "Email":"test.qa1@dispostable.com",
     "Phone":"0987846774",
     "Password":"test123" 
 

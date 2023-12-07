@@ -70,12 +70,20 @@ Cypress.Commands.overwriteQuery("contains", function (contains, filter, text, us
   }
 )
 
-//custom command for login
+//custom command for login: since the login is a pre requisite for all the action, the url will fetch from config base url value
 
-Cypress.Commands.add("loginapp", (email, password)=>{
-
+/*Cypress.Commands.add("loginapp", (email, password)=>{
+  cy.visit("")
   cy.get("#Email").type(email)
   cy.get("#Password").type(password)
   cy.get('.button-1.login-button').click()
+
+})*/
+
+Cypress.Commands.add("login", (email, password)=>{
+  cy.visit("")
+  cy.get("#input-email").type(email)
+  cy.get("#input-password").type(password)
+  cy.get('form > .btn').click()
 
 })
