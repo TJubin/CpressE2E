@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "test:addTo cart":"npx cypress run --spec cypress/e2e/tests/loginFlowCheck.cy.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "jubin",
